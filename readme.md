@@ -20,8 +20,10 @@ A real-time chat application built with Node.js and Socket.io.
 
 ## My Contributions
 - Custom styling and UI improvements
-- Emoji support (in progress)
-- Message timestamps (in progress)
+- Native emoji picker support (EmojiMart)
+- Press `Enter` key to send messages
+- Live message timestamps
+- Real-time typing status indicator
 
 ## Credits
 Base application built following a tutorial. Extended and modified for learning purposes.

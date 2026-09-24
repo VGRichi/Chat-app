@@ -19,6 +19,10 @@ io.on('connection', function (socket){
     socket.on("chat", function (message){
         socket.broadcast.emit("chat", message);
     });
+    socket.on('typing', function (isTyping) {
+        socket.broadcast.emit('typing', isTyping);
+    }); 
+
 });
 
 server.listen(5000) ;
